@@ -1,6 +1,6 @@
 package b2
 
-import "github.com/mholt/caddy"
+import "github.com/caddyserver/caddy"
 
 func init() {
 	caddy.RegisterPlugin("b2", caddy.Plugin{
